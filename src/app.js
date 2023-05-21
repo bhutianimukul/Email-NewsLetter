@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 // MIDDLEWARE
 app.use(express.json());
 
-// ROUTES
+
 app.use(userRouter);
 app.use(adminRouter);
 
